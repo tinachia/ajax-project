@@ -1,16 +1,16 @@
 var $pagecontainer = document.querySelector('.page-container');
 
-view $page = document.querySelectorAll('.page');
+var $page = document.querySelectorAll('.page');
 var $view = document.querySelectorAll('.view');
 
 $pagecontainer.addEventListener('click', pageView);
 
-function pageView (event) {
+function pageView(event) {
   if (!event.target.matches('.page')) {
     return;
   }
   for (var i = 0; i < $page.length; i++) {
-    if ($tab[i] === event.target) {
+    if ($page[i] === event.target) {
       $page[i].className = 'page active';
     } else {
       $page[i].className = 'page';
@@ -24,6 +24,4 @@ function pageView (event) {
       $view[j].className = 'view hidden';
     }
   }
-});
-
 }

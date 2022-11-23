@@ -37,26 +37,40 @@
         </div>
       </div>
       <div class="row">
-        <div class="column-half">
+        <div class="column-half flex">
           <img src="/images/Monet Picture.webp" class="monet" alt="monet-self-potrait">
-        </div>
-        <div class="column-half">
-          <img src="/images/van gogh painting.jpg" class="vg-painting" alt="van-gogh-almond-blossom">
-        </div>
-      </div>
-      <div class="row">
-        <div class="column-half">
           <button>The Artists</button>
         </div>
-        <div class="column-half">
+        <div class="column-half flex">
+          <img src="/images/van gogh painting.jpg" class="vg-painting" alt="van-gogh-almond-blossom">
           <button>Their Work</button>
         </div>
       </div>
     </div>
 
-    <div class="container view hidden" data-view="artist-page"></div>
-    <div class="container view hidden" data-view="gallery-page"></div>
-    <div class="container view hidden" data-view="favorite-page"></div>
+    <div class="container view hidden" data-view="artist-page">
+      <div class="row">
+        <div class="column-full">
+          <h3>Meet Our Artist</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container view hidden" data-view="gallery-page">
+      <div class="row">
+        <div class="column-full">
+          <h3>Work of</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container view hidden" data-view="favorite-page">
+      <div class="row">
+        <div class="column-full">
+          <h3>Your Collection</h3>
+        </div>
+      </div>
+    </div>
 
   </main>
   <script src="js/data.js"></script>

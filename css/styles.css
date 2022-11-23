@@ -32,3 +32,14 @@ img {
   font-size: 50px;
   line-height: 22px;
 }
+
+button {
+  border: none;
+  background: transparent;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
