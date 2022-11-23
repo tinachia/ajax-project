@@ -10,7 +10,7 @@ header {
   padding: 15px 0;
 }
 
-.header {
+#header {
   font-weight: 100;
   display: inline;
 }
