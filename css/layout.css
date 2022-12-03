@@ -13,15 +13,19 @@
   flex-wrap: wrap;
 }
 
+.column-full,
+.column-half {
+  width: 100%;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.column-full,
-.column-half {
-  width: 100%;
+.margin {
+  margin: 0, 10px;
 }
 
 @media screen and (min-width: 768px) {
