@@ -40,8 +40,10 @@ img {
 button {
   border: none;
   background: transparent;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
+  border: solid black 1px;
+  border-radius: 3px;
 }
 
 .artist-padding {
@@ -56,4 +58,9 @@ button {
 
 .hidden {
   display: none;
+}
+
+#artist-work {
+  display: flex;
+  align-items: center;
 }
