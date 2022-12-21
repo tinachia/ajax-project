@@ -11,6 +11,12 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column-full,
+.column-half {
+  width: 100%;
 }
 
 .flex {
@@ -19,9 +25,8 @@
   align-items: center;
 }
 
-.column-full,
-.column-half {
-  width: 100%;
+.margin {
+  margin: 0, 10px;
 }
 
 @media screen and (min-width: 768px) {

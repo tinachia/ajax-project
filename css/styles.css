@@ -1,7 +1,6 @@
 body {
   background-color: #f0f0f0;
   font-family: "Proza Libre", sans-serif;
-  font-size: 12px;
 }
 
 header {
@@ -13,6 +12,11 @@ header {
 #header {
   font-weight: 100;
   display: inline;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -38,6 +42,16 @@ button {
   background: transparent;
   font-size: 17px;
   font-weight: bold;
+}
+
+.artist-padding {
+  margin: 20px 400px;
+  border: solid;
+  border-color: lightgrey;
+  border-radius: 3px;
+  width: 700px;
+  justify-content: center;
+  background-color: white;
 }
 
 .hidden {
