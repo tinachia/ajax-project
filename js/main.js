@@ -47,7 +47,7 @@ function handleSubmit(event) {
         storeResults(xhr.response.objectIDs[i]);
       }
       // renderSearchResult();
-      setTimeout(renderSearchResult, 7000);
+      setTimeout(renderSearchResult, 1000);
     } else {
       for (var j = 0; j < xhr.response.objectIDs.length; j++) {
         storeResults(xhr.response.objectIDs[j]);
